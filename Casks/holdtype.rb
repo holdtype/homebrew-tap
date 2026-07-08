@@ -14,7 +14,7 @@ cask "holdtype" do
 
   auto_updates true
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "HoldType.app"
 
