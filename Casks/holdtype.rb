@@ -1,6 +1,6 @@
 cask "holdtype" do
-  version "1.0.0"
-  sha256 "26f64b6dbffc96542a6c36e95dc52f8ac6634c8a8d0c5c0129238bfd4a00355c"
+  version "1.0.1"
+  sha256 "2f56c27608158165b9da143bbd6f1c503a2a7d8105871e1758eafd9bc6be5891"
 
   url "https://github.com/holdtype/holdtype-swift/releases/download/v#{version}/HoldType-#{version}.dmg"
   name "HoldType"
@@ -14,7 +14,7 @@ cask "holdtype" do
 
   auto_updates true
 
-  depends_on macos: :tahoe
+  depends_on macos: :sonoma
 
   app "HoldType.app"
 
