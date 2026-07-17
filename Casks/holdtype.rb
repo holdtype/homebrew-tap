@@ -1,6 +1,6 @@
 cask "holdtype" do
-  version "1.0.4"
-  sha256 "c56c2dc86efa9cd94d3bd0d038b0600f3a4397117eb834ba47a69b70e3b5efab"
+  version "1.0.3"
+  sha256 "e3e3829303aae201e22effca6c71cdc72a00c47132e511229c46612ac68ad4e8"
 
   url "https://github.com/holdtype/holdtype-swift/releases/download/v#{version}/HoldType-#{version}.dmg"
   name "HoldType"
