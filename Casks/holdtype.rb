@@ -1,8 +1,8 @@
 cask "holdtype" do
-  version "1.0.6"
-  sha256 "c2cfff50fabf73474041dd8192beb3b8e6c11fbbef8cf6e871ded486790d4bdd"
+  version "1.0.9"
+  sha256 "0999f11ef7a1af84dbaaec56ce70b2d1b1c4c37b3ac2f7f785115ad13c567422"
 
-  url "https://github.com/holdtype/holdtype-swift/releases/download/v#{version}/HoldType-#{version}.dmg"
+  url "https://github.com/holdtype/holdtype-swift/releases/download/v#{version}/HoldType.dmg"
   name "HoldType"
   desc "Native macOS menu bar dictation utility"
   homepage "https://github.com/holdtype/holdtype-swift"
